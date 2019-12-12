@@ -1,0 +1,115 @@
+p,h1,h2,h3,h4,h5,h6,a {
+  font-family: 'Montserrat','Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.cover {
+  background: url('assets/cover.jpg'), linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25));
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+.cover-text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  color: black;
+  font-size: 1.5em;
+}
+
+.cover-button {
+  text-decoration: none;
+  color: black;
+}
+
+
+.profile {
+  background: #F1F1F1;
+  padding-bottom: 24vh;
+}
+
+.title {
+  padding-top: 6vh;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1.75em;
+  text-transform: uppercase;
+}
+
+.content {
+  margin-top: 6vh;
+  margin-left: 18vw;
+  margin-right: 18vw;
+
+  padding-bottom: 6vh;
+}
+
+.bio {
+  line-height: 200%;
+}
+
+.work {
+  background: white;
+}
+
+.list-work {
+  height: auto;
+  width: 100%;
+  display: table;
+  margin-bottom: 4em;
+}
+
+.list-work-content {
+  vertical-align: middle;
+  display: table-cell;
+  line-height: 1.6;
+}
+
+.list-work-img {
+  vertical-align: middle;
+  display: table-cell;
+  margin-right: 3em;
+  max-width: 200px;
+  height: auto;
+}
+
+.list-work-title {
+  color: #2956A9;
+  font-size: 1.5em;
+  margin-bottom: 0.75em;
+}
+
+.list-work-subtitle {
+  font-size: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.list-work-loc {
+  font-size: 0.9em;
+  color: #414141;
+  margin-top: 0.5em;
+}
+
+.contact {
+  background: #F1F1F1;
+}
+
+.social-media {
+  text-align: center;
+  font-size: 8em;
+}
+
+.social-media-icon {
+  color: black;
+}

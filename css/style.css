@@ -7,59 +7,33 @@ html, body {
   scroll-behavior: smooth;
 }
 
-.img-profile {
-  margin: 1em;
+.competitions-logo {
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 1em;
 }
 
-.img-work {
-  margin: 1em;
-  width: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2") format('woff2');
 }
 
-.list-work-img {
-  vertical-align: middle;
-  display: table-cell;
-  margin-right: 3em;
-  max-width: 200px;
-  height: auto;
-}
-
-.title {
-  color: #2956A9;
-  font-size: 1.5em;
-  margin-bottom: 0.75em;
-}
-
-.list-work-subtitle {
-  font-size: 1em;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-.list-work-loc {
-  font-size: 0.9em;
-  color: #414141;
-  margin-top: 0.5em;
-}
-
-.contact {
-  background: #F1F1F1;
-}
-
-.social-media {
-  text-align: center;
-  font-size: 8em;
-}
-
-.social-media-icon {
-  color: black;
-  margin-right: 1em;
-  vertical-align: middle;
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }

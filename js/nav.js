@@ -24,7 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // muat konten yang dipanggil
             page = event.target.getAttribute("href").substr(1);
-            loadPage(page);
           });
         });
 
@@ -37,10 +36,12 @@ document.addEventListener("DOMContentLoaded", function() {
   //get content
   var page = window.location.hash.substr(1);
 
-  if (page == "") page = "home";
+
+  if (page == "") page = "index";
   loadPage(page);
 
   function loadPage(page) {
+
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
       if (this.readyState == 4) {
@@ -54,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       }
     };
-    xhttp.open("GET", "pages/" + page + ".html", true);
+    xhttp.open("GET", "/pages/" + page + ".html", true);
     xhttp.send();
   }
 });
